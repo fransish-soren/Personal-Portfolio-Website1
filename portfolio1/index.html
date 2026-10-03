@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Modern responsive portfolio website">
+  <title>Alex Johnson | Product Designer & Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">AJ<span>.</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hi, I am <strong>Alex Johnson</strong></p>
+          <h1>Product Designer<br><span>and Developer</span></h1>
+          <p class="hero-text">
+            With 5+ years experience in the Digital World. I create modern,
+            responsive and user-friendly digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">Hire me</a>
+            <a href="#contact" class="btn btn-light">Contact</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrap reveal">
+          <div class="hero-circle"></div>
+          <img src="assets/hero-person.jpg" alt="Portfolio portrait" class="hero-person">
+          <span class="float-icon icon-purple"><i class="fa-solid fa-code"></i></span>
+          <span class="float-icon icon-blue"><i class="fa-brands fa-css3-alt"></i></span>
+          <span class="float-icon icon-orange"><i class="fa-brands fa-js"></i></span>
+          <span class="float-dot dot-blue"></span>
+          <span class="float-dot dot-red"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-heading reveal">
+          <h2>How We Work</h2>
+          <p>From a simple idea to a polished digital product, I follow a clear process.</p>
+        </div>
+
+        <div class="process-card">
+          <article class="process-item reveal">
+            <div class="process-icon blue"><i class="fa-regular fa-file-lines"></i></div>
+            <h3>Your Brief about<br>The project</h3>
+            <p>We discuss your goals, audience, content and the result you want to achieve.</p>
+            <a href="#contact" class="mini-btn blue-btn">Get Started</a>
+          </article>
+
+          <article class="process-item reveal">
+            <div class="process-icon pink"><i class="fa-solid fa-bullseye"></i></div>
+            <h3>Doing Research On<br>The Project</h3>
+            <p>I research users, competitors and visual direction before building the solution.</p>
+            <a href="#projects" class="mini-btn pink-btn">See Work</a>
+          </article>
+
+          <article class="process-item reveal">
+            <div class="process-icon yellow"><i class="fa-solid fa-list-check"></i></div>
+            <h3>Design & Development</h3>
+            <p>The final interface is designed, coded and optimized for desktop and mobile.</p>
+            <a href="#contact" class="mini-btn yellow-btn">Read More</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills section">
+      <div class="container skills-grid">
+        <div class="skills-intro reveal">
+          <h2>My Skills</h2>
+          <p>
+            I combine product thinking, clean UI design and front-end development
+            to turn ideas into practical digital experiences.
+          </p>
+
+          <div class="stats">
+            <div><strong><span>10</span></strong><small>Years of<br>Experience</small></div>
+            <div><strong><span>21</span></strong><small>Satisfied<br>Clients</small></div>
+          </div>
+        </div>
+
+        <div class="skill-list">
+          <div class="skill-card reveal">
+            <div class="skill-icon pink"><i class="fa-solid fa-user-check"></i></div>
+            <div><h3>User Experience</h3><p>Simple flows and interfaces built around real user needs.</p></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon blue"><i class="fa-solid fa-object-group"></i></div>
+            <div><h3>User Interface</h3><p>Clean, modern and responsive visual systems for web products.</p></div>
+          </div>
+          <div class="skill-card reveal">
+            <div class="skill-icon yellow"><i class="fa-solid fa-pen-ruler"></i></div>
+            <div><h3>Product Design</h3><p>From wireframes and prototypes to polished final screens.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects section" id="projects">
+      <div class="container project-layout">
+        <div class="project-intro reveal">
+          <h2>My latest<br>Project</h2>
+          <p>
+            A selection of recent websites and digital products designed
+            with a focus on clarity, usability and strong visual hierarchy.
+          </p>
+          <small>Since 2012</small>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <img src="assets/project-1.jpg" alt="Travel agency project">
+            <div><strong>Travel Agency</strong><span>20/10/19</span></div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/project-2.jpg" alt="Online course project">
+            <div><strong>Online Course</strong><span>20/10/19</span></div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/project-3.jpg" alt="Health service project">
+            <div><strong>Online Health Service</strong><span>20/10/19</span></div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/project-4.jpg" alt="Travel project">
+            <div><strong>Travel</strong><span>20/10/19</span></div>
+          </article>
+          <article class="project-card reveal">
+            <img src="assets/project-5.jpg" alt="Restaurant project">
+            <div><strong>Restaurant</strong><span>20/10/19</span></div>
+          </article>
+        </div>
+      </div>
+
+      <div class="container center">
+        <a href="#contact" class="btn btn-primary">Load More</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal">
+          <h2>Let’s Talk<br>About Your<br>Project</h2>
+          <p>Have an idea? Tell me about your project and let's build something useful together.</p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="text" placeholder="Your Subject" required>
+          <textarea rows="6" placeholder="Brief about your project." required></textarea>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <h2>Contact</h2>
+      <a class="email" href="mailto:hello@example.com">hello@example.com</a>
+
+      <div class="socials">
+        <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble"></i></a>
+        <a href="#" aria-label="Behance"><i class="fa-brands fa-behance"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+
+      <div class="footer-line"></div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Alex Johnson. All rights reserved.</p>
+        <div>
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="top-btn" id="topBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
